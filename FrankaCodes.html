@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/Resin.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FrankaCodes</title>
+    
+    
+<link rel="icon" type="images/jpg" href="http://127.0.0.1:5500/images/handshaking.jpg"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css?_cacheOverride=1733228229916" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="./FrankaCodes_files/style.css"></head>
+<body> 
+<!-- Navbar -->
+ <nav>
+<div class="Nav-container">
+           <nav class="logo">
+             <h1 class="logo text"><i>Franka<span>Codes</span></i></h1>
+             </nav>
+             <ul>
+             <li class="active">Home</li>
+             <li>About</li>
+               <li>Contact Us</li>
+               </ul>
+             </div>    
+</nav>
+<!-- // Navbar -->
+ 
+<!-- Opening -->  
+ <div class="profile-page">
+             <div class="profile-background"></div>
+              <div class="profile-content">
+              <h1><i>Hi, I'm Franka Ulaka</i></h1>
+              <p>A creative problem-solver who designs,builds, and maintains<br>
+                   innovative software solutions to bring your vision to life.</p>
+            <button>Let's Talk</button>
+        </div>
+     </div>
+        
+<!-- // Opening --> 
+ <!-- About Me section -->
+          <div class="about-me">
+            <div class="pictures">
+              <img src="./FrankaCodes_files/baby.png">
+            <h1>ABOUT<br>ME</h1>
+            <p>As a highly motivated and creative frontend dev/content creator with 2+ years of experience,
+              i've developed a passion for innovative visual storytelling,through designing.<br>
+              My experience spans building landing pages,e-com sites,graphic design,video editing with a keen focus on 
+              creative problem-solving and attention to detail.
+              <br> 
+              <br>
+              As a dedicated and driven developer,I'm committed to pushing the boundaries of visual
+              storytelling and delivering exceptional result that exceed expectations.
+            </p>
+            </div>
+          </div>
+ <!-- // About Me section -->
+  <!-- Skills -->
+   <div class="skill-section">
+            <h2 class="skill-title">My Skills</h2>
+                 <div class="skill-boxes">
+                  <div class="skill-box">
+                    <h3>Technical Skills</h3>
+                    <ul>"
+                      <li>HTML/CSS</li>
+                      <li>JavaScript</li>
+                      <li>Bootstrap</li>
+                      <li>Wordpress</li>
+                      <li>Graphic design</li>
+                      <li>Content creator</li>
+                      <li>Video editing</li>
+                    </ul>
+                  </div>
+                  <div class="skill-box">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                      <li>Communication</li>
+                      <li>Teamwork</li>
+                      <li>Problem-solving</li>
+                      <li>Time Management</li>
+                      <li>Active Listening</li>
+                      <li>Adaptability</li>
+                    </ul>
+                  </div>
+                 </div>
+   </div>
+   <!-- // Skills -->
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
